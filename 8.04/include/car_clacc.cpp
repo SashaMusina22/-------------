@@ -58,7 +58,7 @@ class PassengerCar : public Car{
     public:
     PassengerCar(int a, int b, string c, int d, int e) : Car(a, b, c, d), doors_number(e){};
     void print() const override {
-        cout << "Мощьность легкового автомобиля: " << horsepower << endl << "Год: " << year << endl << "Цвет: " << color << endl << "Пробег: " << mileage << endl << "Количество дверей: " << doors_number << endl;
+        cout << "Мощность легкового автомобиля: " << horsepower << endl << "Год: " << year << endl << "Цвет: " << color << endl << "Пробег: " << mileage << endl << "Количество дверей: " << doors_number << endl;
     }
 
     ~PassengerCar() override = default;
@@ -72,7 +72,7 @@ class Truck : public Car{
     public:
     Truck(int a, int b, string c, int d, int e) : Car(a, b, c, d), capacity(e){};
     void print() const override {
-        cout << "Мощьность легкового автомобиля: " << horsepower << endl << "Год: " << year << endl << "Цвет: " << color << endl << "Пробег: " << mileage << endl << "Вместимость: " << capacity << endl;
+        cout << "Мощность легкового автомобиля: " << horsepower << endl << "Год: " << year << endl << "Цвет: " << color << endl << "Пробег: " << mileage << endl << "Вместимость: " << capacity << endl;
     }
     
     ~Truck() override = default;
@@ -86,7 +86,7 @@ class Bus : public Car{
     public:
     Bus(int a, int b, string c, int d, int e) : Car(a, b, c, d), numberofpassenger(e){};
     void print() const override {
-        cout << "Мощьность легкового автомобиля: " << horsepower << endl << "Год: " << year << endl << "Цвет: " << color << endl << "Пробег: " << mileage << endl << "Количество пассажиров: " << numberofpassenger << endl;
+        cout << "Мощность легкового автомобиля: " << horsepower << endl << "Год: " << year << endl << "Цвет: " << color << endl << "Пробег: " << mileage << endl << "Количество пассажиров: " << numberofpassenger << endl;
     }
     
     ~Bus() override = default;
