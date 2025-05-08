@@ -39,5 +39,30 @@ int main(){
 }
 
 
+class Point {
+    int x, y;
+public:
+    Point() {
+        x = 0;
+        y = 0;
+    }
 
+    Point(int a) {
+        x = a;
+        y = 0;
+    }
+
+    Point(int a, int b) {
+        x = a;
+        y = b;
+    }
+};
+
+
+
+
+
+
+    
+    
     
