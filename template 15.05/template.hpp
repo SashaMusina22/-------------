@@ -1,7 +1,7 @@
 #ifndef TEMPLATE_HPP
 #define TEMPLATE_HPP
 
-#include <string>  // Для std::string
+#include <string>  
 
 enum class Color { red, green, orange };
 enum class Fruit { apple, orange, pear };
