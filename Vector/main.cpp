@@ -14,6 +14,11 @@ int main() {
     std::cout << "Первый элемент: " << v.front() << "\n";
     std::cout << "Последний элемент: " << v.back() << "\n";
 
+    my_vector<int>::iterator it;
+    for(it = v.begin(); it != v.end(); ++it){
+        std::cout << *it << endl;
+    }
+
     v.pop_back();
     std::cout << "После pop_back, последний элемент: " << v.back() << "\n";
 
